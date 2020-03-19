@@ -17,7 +17,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - zlib
-    - r-base
+    - r-base >=3.3
 
   run:
     - zlib
